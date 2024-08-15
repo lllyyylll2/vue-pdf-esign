@@ -1,5 +1,5 @@
 {
-  "name": "vue-pdf",
+  "name": "vue-pdf-esign",
   "version": "4.2.0",
   "description": "vue.js pdf viewer",
   "main": "src/vuePdfNoSss.vue",
@@ -22,9 +22,9 @@
   "dependencies": {
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "loader-utils": "^1.4.0",
-    "pdfjs-dist": "git+https://github.com/lllyyylll2/pdfjs-dist-esign.git#main",
+    "pdfjs-dist-esign-v2": "^2.5.207",
     "raw-loader": "^4.0.1",
-    "vue-pdf": "file:",
+    "vue-pdf-esign": "file:",
     "vue-resize-sensor": "^2.0.0",
     "worker-loader": "^2.0.0"
   }
