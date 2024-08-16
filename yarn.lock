@@ -1770,10 +1770,10 @@ pbkdf2@^3.0.3, pbkdf2@^3.1.2:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-pdfjs-dist-esign-v2@^2.5.207:
-  version "2.5.207"
-  resolved "https://registry.npmjs.org/pdfjs-dist-esign-v2/-/pdfjs-dist-esign-v2-2.5.207.tgz"
-  integrity sha512-Iqn7K+AU4qPFbYn0wsroh65288Q/wZWzxCoWxO0e8efiaBH8XQy/bA2CGIWF3+f8Y4d8pqB/WQ0KATWyHLg9vw==
+pdfjs-dist-esign-v2@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/pdfjs-dist-esign-v2/-/pdfjs-dist-esign-v2-1.0.0.tgz"
+  integrity sha512-dTLRLVwAa8z0Wb2wTJruW+y2qthi0oPsYyxoja169Q1gYhHj7UZA1XgmZQb+EH0lliMG6iO+6UsA7lgBkUVebw==
 
 picomatch@^2.0.4, picomatch@^2.2.1:
   version "2.3.1"
@@ -2412,15 +2412,15 @@ vm-browserify@^1.0.1:
   resolved "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-"vue-pdf-esign@file:":
-  version "4.2.0"
+"vue-pdf-esign-v2@file:":
+  version "1.0.0"
   resolved "file:"
   dependencies:
     babel-plugin-syntax-dynamic-import "^6.18.0"
     loader-utils "^1.4.0"
-    pdfjs-dist-esign-v2 "^2.5.207"
+    pdfjs-dist-esign-v2 "^1.0.0"
     raw-loader "^4.0.1"
-    vue-pdf-esign "file:"
+    vue-pdf-esign-v2 "file:"
     vue-resize-sensor "^2.0.0"
     worker-loader "^2.0.0"
 

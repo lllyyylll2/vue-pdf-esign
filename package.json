@@ -1,30 +1,30 @@
 {
-  "name": "vue-pdf-esign",
-  "version": "4.2.0",
-  "description": "vue.js pdf viewer",
+  "name": "vue-pdf-esign-v2",
+  "version": "1.0.1",
+  "description": "vue.js pdf viewer, display digital signature image.",
   "main": "src/vuePdfNoSss.vue",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FranckFreiburger/vue-pdf.git"
+    "url": "git+https://github.com/lllyyylll2/vue-pdf-esign.git"
   },
   "keywords": [
     "vue.js",
     "pdf",
-    "viewer"
+    "viewer",
+    "e-sign"
   ],
   "author": "Franck FREIBURGER",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/FranckFreiburger/vue-pdf/issues"
   },
-  "homepage": "https://github.com/FranckFreiburger/vue-pdf#readme",
+  "homepage": "https://github.com/lllyyylll2/vue-pdf-esign#readme",
   "dependencies": {
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "loader-utils": "^1.4.0",
-    "pdfjs-dist-esign-v2": "^2.5.207",
+    "pdfjs-dist-esign-v2": "^1.0.0",
     "raw-loader": "^4.0.1",
-    "vue-pdf-esign": "file:",
     "vue-resize-sensor": "^2.0.0",
     "worker-loader": "^2.0.0"
   }
